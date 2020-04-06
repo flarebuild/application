@@ -69,3 +69,6 @@ fastlane/screenshots
 fastlane/test_output
 
 CHMeetupApp/Resources/Storyboards/Storyboards.swift
+
+# Bazel
+bazel-*
