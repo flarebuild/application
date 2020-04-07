@@ -20,7 +20,7 @@ struct SpeachPreviewTableViewCellModel {
 }
 
 extension SpeachPreviewTableViewCellModel: CellViewModelType {
-  func setup(on cell: SpeachPreviewTableViewCell) {
+  func setup(on cell: SpeechPreviewTableViewCell) {
 
     cell.avatarImageView.image        = UIImage(data: userPhoto)
     cell.fullNameLabel.text           = firstName + " " + lastName

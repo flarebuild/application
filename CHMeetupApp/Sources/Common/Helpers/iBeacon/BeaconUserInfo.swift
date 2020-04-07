@@ -25,10 +25,10 @@ struct BeaconUserInfo {
 
   static func from(data: Data) -> BeaconUserInfo? {
     guard let userInfo = try? JSONSerialization.jsonObject(with: data, options: []) as? [String: Any],
-      let id = userInfo?["id"] as? Int,
-      let name = userInfo?["name"] as? String else { return nil}
+      let id = userInfo["id"] as? Int,
+      let name = userInfo["name"] as? String else { return nil}
 
-    let photoURL = userInfo?["photo_url"] as? String
+    let photoURL = userInfo["photo_url"] as? String
     return BeaconUserInfo(id: id, name: name, photoURL: photoURL)
   }
 }
