@@ -1,0 +1,165 @@
+{
+  "additionalFilePaths" : [
+    "CHMeetupApp/BUILD"
+  ],
+  "buildTargets" : [
+    "//CHMeetupApp:CHMeetupApp",
+    "//CHMeetupApp:Sources"
+  ],
+  "optionSet" : {
+    "BazelBuildOptionsDebug" : {
+      "p" : "$(inherited)"
+    },
+    "BazelBuildOptionsRelease" : {
+      "p" : "$(inherited)"
+    },
+    "BazelBuildStartupOptionsDebug" : {
+      "p" : "$(inherited)"
+    },
+    "BazelBuildStartupOptionsRelease" : {
+      "p" : "$(inherited)"
+    },
+    "BuildActionPostActionScript" : {
+      "p" : "$(inherited)"
+    },
+    "BuildActionPreActionScript" : {
+      "p" : "$(inherited)"
+    },
+    "CommandlineArguments" : {
+      "p" : "$(inherited)"
+    },
+    "EnvironmentVariables" : {
+      "p" : "$(inherited)"
+    },
+    "LaunchActionPostActionScript" : {
+      "p" : "$(inherited)"
+    },
+    "LaunchActionPreActionScript" : {
+      "p" : "$(inherited)"
+    },
+    "ProjectGenerationBazelStartupOptions" : {
+      "p" : "$(inherited)"
+    },
+    "TestActionPostActionScript" : {
+      "p" : "$(inherited)"
+    },
+    "TestActionPreActionScript" : {
+      "p" : "$(inherited)"
+    }
+  },
+  "projectName" : "CHMeetupApp",
+  "sourceFilters" : [
+    "CHMeetupApp/...",
+    "CHMeetupApp/Resources",
+    "CHMeetupApp/Resources/Config",
+    "CHMeetupApp/Resources/Localizations",
+    "CHMeetupApp/Resources/Storyboards",
+    "CHMeetupApp/Sources",
+    "CHMeetupApp/Sources/Common",
+    "CHMeetupApp/Sources/Common/Extensions",
+    "CHMeetupApp/Sources/Common/Extensions/Foundation",
+    "CHMeetupApp/Sources/Common/Extensions/Foundation/Bundle",
+    "CHMeetupApp/Sources/Common/Extensions/Foundation/Date",
+    "CHMeetupApp/Sources/Common/Extensions/Foundation/Dictionary",
+    "CHMeetupApp/Sources/Common/Extensions/Foundation/Int",
+    "CHMeetupApp/Sources/Common/Extensions/Foundation/String",
+    "CHMeetupApp/Sources/Common/Extensions/Foundation/URL",
+    "CHMeetupApp/Sources/Common/Extensions/UIKit",
+    "CHMeetupApp/Sources/Common/Extensions/UIKit/UIColor",
+    "CHMeetupApp/Sources/Common/Extensions/UIKit/UIFont",
+    "CHMeetupApp/Sources/Common/Extensions/UIKit/UIImage",
+    "CHMeetupApp/Sources/Common/Extensions/UIKit/UIImageView",
+    "CHMeetupApp/Sources/Common/Extensions/UIKit/UIView",
+    "CHMeetupApp/Sources/Common/Extensions/UIKit/UIViewController",
+    "CHMeetupApp/Sources/Common/Helpers",
+    "CHMeetupApp/Sources/Common/Helpers/AttributedStringHelper",
+    "CHMeetupApp/Sources/Common/Helpers/AuthService",
+    "CHMeetupApp/Sources/Common/Helpers/AuthService/AuthResources",
+    "CHMeetupApp/Sources/Common/Helpers/Importer",
+    "CHMeetupApp/Sources/Common/Helpers/KeyboardHandler",
+    "CHMeetupApp/Sources/Common/Helpers/NotificationHelper",
+    "CHMeetupApp/Sources/Common/Helpers/PermissionsManager",
+    "CHMeetupApp/Sources/Common/Helpers/Previewing",
+    "CHMeetupApp/Sources/Common/Helpers/PushHandler",
+    "CHMeetupApp/Sources/Common/Helpers/Reachability",
+    "CHMeetupApp/Sources/Common/Helpers/UniversalRouter",
+    "CHMeetupApp/Sources/Common/Helpers/Utility",
+    "CHMeetupApp/Sources/Common/Helpers/Validation",
+    "CHMeetupApp/Sources/Common/Helpers/WebService",
+    "CHMeetupApp/Sources/Common/Helpers/iBeacon",
+    "CHMeetupApp/Sources/Common/Helpers/iBeacon/BeaconOperations",
+    "CHMeetupApp/Sources/Common/Helpers/iBeacon/BluetoothSUT",
+    "CHMeetupApp/Sources/Common/Views",
+    "CHMeetupApp/Sources/Common/Views/AboutSpeechCell",
+    "CHMeetupApp/Sources/Common/Views/ActionButton",
+    "CHMeetupApp/Sources/Common/Views/ActionCell",
+    "CHMeetupApp/Sources/Common/Views/ActionDetailIconCell",
+    "CHMeetupApp/Sources/Common/Views/AlertHeaderTableViewCell",
+    "CHMeetupApp/Sources/Common/Views/EventCell",
+    "CHMeetupApp/Sources/Common/Views/LabelCell",
+    "CHMeetupApp/Sources/Common/Views/OptionCell",
+    "CHMeetupApp/Sources/Common/Views/SwitchCell",
+    "CHMeetupApp/Sources/Common/Views/TabBarItemView",
+    "CHMeetupApp/Sources/Common/Views/TextViewWithPlaceholder",
+    "CHMeetupApp/Sources/Controllers",
+    "CHMeetupApp/Sources/Controllers/ActionCellConfigurationController",
+    "CHMeetupApp/Sources/Controllers/Factory",
+    "CHMeetupApp/Sources/Controllers/FindNearest",
+    "CHMeetupApp/Sources/Controllers/GiveSpeechController",
+    "CHMeetupApp/Sources/Controllers/Login",
+    "CHMeetupApp/Sources/Controllers/Maps",
+    "CHMeetupApp/Sources/Controllers/ProfileController",
+    "CHMeetupApp/Sources/Controllers/PushNotification",
+    "CHMeetupApp/Sources/Controllers/Registration",
+    "CHMeetupApp/Sources/Model",
+    "CHMeetupApp/Sources/Model/Entities",
+    "CHMeetupApp/Sources/Model/Entities/Single",
+    "CHMeetupApp/Sources/Model/Helpers",
+    "CHMeetupApp/Sources/Model/PlainObjects",
+    "CHMeetupApp/Sources/Model/PlainObjects/Event",
+    "CHMeetupApp/Sources/Model/PlainObjects/Event/RegForm",
+    "CHMeetupApp/Sources/Model/PlainObjects/Place",
+    "CHMeetupApp/Sources/Model/PlainObjects/Request",
+    "CHMeetupApp/Sources/Model/PlainObjects/Speech",
+    "CHMeetupApp/Sources/Model/PlainObjects/User",
+    "CHMeetupApp/Sources/ViewControllers",
+    "CHMeetupApp/Sources/ViewControllers/Base",
+    "CHMeetupApp/Sources/ViewControllers/Events",
+    "CHMeetupApp/Sources/ViewControllers/Events/EventPreview",
+    "CHMeetupApp/Sources/ViewControllers/Events/EventPreview/DisplayModel",
+    "CHMeetupApp/Sources/ViewControllers/Events/EventPreview/subviews",
+    "CHMeetupApp/Sources/ViewControllers/Events/Registration",
+    "CHMeetupApp/Sources/ViewControllers/Events/Registration/Confirm",
+    "CHMeetupApp/Sources/ViewControllers/Events/Registration/Confirm/DisplayModel",
+    "CHMeetupApp/Sources/ViewControllers/Events/Registration/Confirm/subviews",
+    "CHMeetupApp/Sources/ViewControllers/Events/Registration/Preview",
+    "CHMeetupApp/Sources/ViewControllers/Events/Registration/Preview/DisplayModel",
+    "CHMeetupApp/Sources/ViewControllers/Events/Speech",
+    "CHMeetupApp/Sources/ViewControllers/Events/Speech/DisplayModel",
+    "CHMeetupApp/Sources/ViewControllers/Events/Speech/subviews",
+    "CHMeetupApp/Sources/ViewControllers/Feed",
+    "CHMeetupApp/Sources/ViewControllers/Feed/Main",
+    "CHMeetupApp/Sources/ViewControllers/Feed/PastEvents",
+    "CHMeetupApp/Sources/ViewControllers/Feed/PastEvents/Cells",
+    "CHMeetupApp/Sources/ViewControllers/Feed/PastEvents/DisplayModel",
+    "CHMeetupApp/Sources/ViewControllers/Profile",
+    "CHMeetupApp/Sources/ViewControllers/Profile/AskQuestion",
+    "CHMeetupApp/Sources/ViewControllers/Profile/Auth",
+    "CHMeetupApp/Sources/ViewControllers/Profile/CreatorDetail",
+    "CHMeetupApp/Sources/ViewControllers/Profile/CreatorDetail/Cells",
+    "CHMeetupApp/Sources/ViewControllers/Profile/CreatorDetail/Cells/CreatorHeader",
+    "CHMeetupApp/Sources/ViewControllers/Profile/CreatorDetail/Cells/CreatorInfo",
+    "CHMeetupApp/Sources/ViewControllers/Profile/CreatorDetail/DisplayModel",
+    "CHMeetupApp/Sources/ViewControllers/Profile/Creators",
+    "CHMeetupApp/Sources/ViewControllers/Profile/Creators/CreatorCell",
+    "CHMeetupApp/Sources/ViewControllers/Profile/Creators/DisplayCollection",
+    "CHMeetupApp/Sources/ViewControllers/Profile/Edit",
+    "CHMeetupApp/Sources/ViewControllers/Profile/FindNearest",
+    "CHMeetupApp/Sources/ViewControllers/Profile/FindNearest/Cell",
+    "CHMeetupApp/Sources/ViewControllers/Profile/FindNearest/FindNearestViewDisplayController",
+    "CHMeetupApp/Sources/ViewControllers/Profile/GiveSpeech",
+    "CHMeetupApp/Sources/ViewControllers/Profile/NavigationController",
+    "CHMeetupApp/Sources/ViewControllers/Profile/ProfileViewController",
+    "CHMeetupApp/Sources/ViewControllers/Profile/Protocols"
+  ]
+}
