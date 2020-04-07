@@ -72,3 +72,6 @@ CHMeetupApp/Resources/Storyboards/Storyboards.swift
 
 # Bazel
 bazel-*
+
+# Tulsi
+*.xcodeproj
