@@ -32,7 +32,7 @@ private extension ColorSet {
   var color: UIColor {
     let capitalized = self.rawValue
     let named = String(capitalized.prefix(1).capitalized + capitalized.dropFirst())
-    return UIColor(named: named)!
+    return UIColor(named: named) ?? UIColor.black
   }
 }
 
