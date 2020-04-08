@@ -16,8 +16,8 @@ swift_library(
         "Resources/Storyboards/Storyboards.swift",
     ]),
     data = glob([
-        "CHMeetupApp/Sources/**/*.xib",
-        "CHMeetupApp/Resources/Storyboards/*.storyboard",
+        "Sources/**/*.xib",
+        "Resources/Storyboards/*.storyboard",
     ]),
     visibility = ["//visibility:public"],
     deps = [
