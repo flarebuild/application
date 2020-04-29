@@ -1,3 +1,5 @@
+package(default_visibility = ["//visibility:public"])
+
 load(
     "@build_bazel_rules_swift//swift:swift.bzl",
     "swift_library",
@@ -19,7 +21,6 @@ swift_library(
         "Sources/**/*.xib",
         "Resources/Storyboards/*.storyboard",
     ]),
-    visibility = ["//visibility:public"],
     deps = [
         "//:Fabric",
         "//:Crashlytics",
@@ -44,7 +45,6 @@ ios_application(
     ],
     infoplists = ["Resources/Config/Info.plist"],
     minimum_os_version = "11.0",
-    visibility = ["//visibility:public"],
     deps = [
         ":Sources",
     ],
